@@ -17,6 +17,8 @@ git clone reponame .
 #clone to remote repo
 5.git clone <url><where to clone>
   git clone https:djfjnf.com.git .
+  git remote -v #to view remote files
+  git branch -a #to view branches
   git diif
   git status
   git add -A
