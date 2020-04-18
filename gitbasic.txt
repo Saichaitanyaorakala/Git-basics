@@ -1,0 +1,48 @@
+git config --global user.name "chaitanya Oakala"
+git config --global user.email "chaitau.orakala@gmail.com"
+#enter the directory where you want to track location
+1.git init
+ls -la
+git status
+#to hide files which to dont want to share in your directry. 
+touch .gitignore
+open file >>> add a  filename >> save
+git status
+#add all files to staging area
+2. git add -A
+3.git commit -m "intial commit"
+#to clone remote repository
+git clone reponame .
+4.git diff
+#clone to remote repo
+5.git clone <url><where to clone>
+  git clone https:djfjnf.com.git .
+  git remote -v #to view remote files
+  git branch -a #to view branches
+  git diif
+  git status
+  git add -A
+  git commit -m "modified "
+  git pull origin master
+  git push origin master
+
+  Git Branch info:
+
+  #create branch
+  git branch brnchname
+  git branch #toview branches
+  git checkout brnchname #to work on created brnch
+  #after wokring on file
+  git commit -m "chenges"
+  git push -u origin brnchname
+merge branch to remote
+  git checkout master
+  git pull origin master
+  git branch --merged
+  git merge branchname
+  git push origin master
+#delete a branch
+  git branch --merged #to view merges added to master
+  git branch -d brnchname
+  git branch -a
+  git push origin --delete branchname
