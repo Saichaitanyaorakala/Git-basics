@@ -25,3 +25,24 @@ git clone reponame .
   git commit -m "modified "
   git pull origin master
   git push origin master
+
+  Git Branch info:
+
+  #create branch
+  git branch brnchname
+  git branch #toview branches
+  git checkout brnchname #to work on created brnch
+  #after wokring on file
+  git commit -m "chenges"
+  git push -u origin brnchname
+merge branch to remote
+  git checkout master
+  git pull origin master
+  git branch --merged
+  git merge branchname
+  git push origin master
+#delete a branch
+  git branch --merged #to view merges added to master
+  git branch -d brnchname
+  git branch -a
+  git push origin --delete branchname
